@@ -1,0 +1,266 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head {
+    width: 100%;
+    margin-top: 25px;
+    box-shadow: 5px grey;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+
+.head-title {
+    display: flex;
+
+}
+
+.g {
+    color: pink;
+}
+
+.head-icon a {
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    width: 100px;
+
+    background-color: rgb(219, 219, 219);
+    border-radius: 8px;
+}
+
+.banner {
+    height: 500px;
+    background-color: #fefbfb;
+}
+
+.status {
+    padding-left: 150px;
+    padding-top: 100px;
+    height: 404px;
+    width: 365px;
+}
+
+.btn-pink {
+    height: 50px;
+    width: 80px;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+
+.status .btn-blue {
+    height: 50px;
+    width: 80px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-img {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.banner1 {
+    width: 100%;
+    height: 500px;
+    background-color: #fefbfb;
+    margin-top: 10px;
+}
+
+.banner1-title {
+    height: 400px;
+    width: 410px;
+}
+
+.banner1 {
+    display: flex;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ctn-title {
+    padding-left: 350px;
+}
+
+.ctn-subtitle {
+    padding-left: 450px;
+}
+
+.ctn-span {
+    color: purple;
+}
+
+.crtn {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.crtoon-title {
+    width: 250px;
+}
+
+.sml-img {
+    margin-left: -350px;
+    margin-bottom: -50px;
+}
+
+.crtn-icon {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-game {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-game:hover {
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.foot {
+    text-align: center;
+    gap: 50px;
+    height: 400px;
+    background-color: black;
+}
+
+.foot .head-title {
+    color: white;
+    margin-left: 550px;
+    padding-top: 100px;
+}
+
+.foot-icon a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    padding: 5px;
+    margin-left: 120px;
+}
+
+.extra-tag a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    padding: 5px;
+    margin-left: 150px;
+
+}
+
+.foot-txt p {
+    color: white;
+    padding-left: 450px;
+}
+
+.ctn-image {
+    margin: 30px;
+}
+
+@media screen and (max-width:576px) {
+    .head {
+        height: 200px;
+        width: 200px;
+        margin-left: 200px;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .head-icon {
+        display: grid;
+        width: 200px;
+        height: 200px
+    }
+
+    .banner {
+        height: 500px;
+        width: 600px;
+        margin-top: 100px;
+        display: grid;
+        flex-wrap: wrap-reverse;
+    }
+
+    .banner-img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .banner1 {
+        margin-top: 50px;
+        flex-direction: column;
+        height: 500px;
+        width: 600px;
+        margin-top: 100px;
+        display: grid;
+        flex-wrap: wrap-reverse;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner1 img {
+        margin-top: 250px;
+    }
+
+    .banner1-title {
+        margin-left: 100px;
+    }
+
+    .container {
+        margin-top: 500px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .crtn {
+        margin-left: 100px;
+        margin-top: 1400px;
+        height: 500px;
+        width: 600px;
+        flex-direction: column;
+    }
+
+    .crtn-icon {
+        margin-top: 200px;
+    }
+
+    .foot {
+        margin-top: 30px;
+        width: 100%;
+        height: 500px;
+        display: grid;
+    }
+
+
+    .foot .head-title {
+        color: white;
+        margin: auto;
+    }
+
+}
